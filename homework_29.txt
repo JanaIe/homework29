@@ -1,0 +1,51 @@
+   0 cd
+   1 cd /home
+   2 mkdir animals planets humans
+   3 ls
+   4 cd animals
+   5 mkdir dogs cats fish
+   6 cd fish
+   7 mkdir Nemo
+   8 cd ..
+   9 cd dogs
+  10 mkdir Pluto
+  11 cd ..
+  12 cd cats
+  13 mkdir Garfield
+  14 cd
+  15 ls /home/animals
+  16 tree /home/animals
+  17 cd /opt
+  18 touch Mercury.txt Venus.txt Mars.txt Jupiter.txt
+  19 ls
+  20 cd
+  21 mv /opt/Mercury.txt /home/planets
+  22 ls /home/planets
+  23 mv /opt/Venus.txt /home/planets
+  24 mv /opt/Mars.txt /home/planets
+  25 mv /opt/Jupiter.txt /home/planets
+  26 ls /home/planets
+  27 cd
+  28 cd /tmp
+  29 touch adam
+  30 ls
+  31 cd
+  32 cp /tmp/adam /home/humans
+  33 ls /home/humans
+  34 /tmp
+  35 cd /tmp
+  36 touch evA.txt
+  37 mv /tmp/evA.txt /opt/eve.txt
+  38 cd
+  39 mv /tmp/evA.txt /opt/eve.txt
+  40 ls /opt
+  41 mv /opt/eve.txt /home/humans
+  42 tree /home/humans
+  43 history
+  44 history > homework 29.09.2023
+  45 ls
+  46 history > homework29.29.2023
+  47 ls
+  48 export_file
+  49 export_file homework26.09.2023
+  50 history > homework_29.txt
