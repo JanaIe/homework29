@@ -1,0 +1,30 @@
+   0 mkdir /home/animals
+   1 mkdir /home/animals/dogs
+   2 mkdir /home/animals/cats
+   3 mkdir /home/animals/fish
+   4 touch /home/animals/fish/Nemo
+   5 touch /home/animals/dogs/Pluto
+   6 touch /home/animals/cats/Garfield
+   7 tree /home
+   8 mkdir /home/planets
+   9 touch /opt/Mercury
+  10 touch /opt/Mars
+  11 touch /opt/Jupiter
+  12 touch /opt/Venus
+  13 tree /opt
+  14 mv /opt/Jupiter /home/planets
+  15 mv /opt/Mars /home/planets
+  16 mv /opt/Mercury /home/planets
+  17 mv /opt/Venus /home/planets
+  18 tree /home/planets
+  19 touch /tmp/adam
+  20 mkdir /home/humans
+  21 cp /tmp/adam /home/humans
+  22 touch /temp/evA
+  23 touch /tmp/evA
+  24 mv /tmp/eva /opt/eve_11
+  25 mv /tmp/eva /opt/eve11
+  26 mv /tmp/evA /opt/eve11
+  27 mv /opt/eve11 /home/humans
+  28 tree /home/humans
+  29 history > Part2.txt
